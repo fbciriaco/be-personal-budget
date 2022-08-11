@@ -28,7 +28,7 @@ const debtSchema = new mongoose.Schema({
         required: false,
         uppercase: true,
         enum: ['PAGO', 'PENDENTE', 'AGENDADO']
-    },
+    }
 })
 
 const billingCycleSchema = new mongoose.Schema({
